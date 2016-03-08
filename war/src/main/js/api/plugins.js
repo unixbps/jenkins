@@ -10,15 +10,14 @@
 exports.recommendedPlugins = [
     "antisamy-markup-formatter",
     "credentials",
-    "github-branch-source",
     "junit",
     "mailer",
     "matrix-auth",
     "script-security",
     "subversion",
     "translation",
-    "workflow-aggregator",
-    "workflow-multibranch"
+    "github-organization-folder",
+    "pipeline-stage-view"
 ];
 
 //
@@ -59,7 +58,9 @@ exports.availablePlugins = [
         "plugins": [
             { "name": "workflow-aggregator" },
             { "name": "github-branch-source" },
-            { "name": "workflow-multibranch" }
+            { "name": "pipeline-stage-view" },
+            { "name": "workflow-multibranch" },
+            { "name": "github-organization-folder" }
         ]
     },
     {
